@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/album-list/static/css/main.57623ac0.css",
+    "main.js": "/album-list/static/js/main.a8ebd1b2.js",
+    "static/media/bg.jpg": "/album-list/static/media/bg.61dd12a2f4a162384f58.jpg",
+    "index.html": "/album-list/index.html",
+    "main.57623ac0.css.map": "/album-list/static/css/main.57623ac0.css.map",
+    "main.a8ebd1b2.js.map": "/album-list/static/js/main.a8ebd1b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57623ac0.css",
+    "static/js/main.a8ebd1b2.js"
+  ]
+}
