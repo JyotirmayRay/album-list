@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+input{
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Navbar style */
+.navbar{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #01b9cd;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.navlogo {
+  color: #ffffff;
+  margin-left: 90px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar button{
+    margin-right: 90px;
+    cursor: pointer;
+    border: 0px;
+    padding: 10px 20px;
+    background-color: #00a130;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+.navbar button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* AlbumsList style */
+.albums-list{
+    width: 90%;
+    margin: auto;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* List style */
+.list{
+    width: 250px;
+    height: 150px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba( 249, 249, 249, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+.list h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    text-transform: capitalize;
+}
+.button-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.update-btn{
+    background-color: #017ae2;
+    color: white;
+    border: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+.update-btn:hover{
+    background-color: white;
+    color: black;
+}
+.delete-btn{
+    cursor: pointer;
+    border: 0px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+.delete-btn:hover{
+    color:red;
+    background-color:white;
+}
+
+/* UpdateAlbum style */
+.update-album{
+    width: 350px;
+    margin: auto;
+    padding-top: 73px;
+    color: white;
+}
+.form-container{
+    margin-top: 90px;
+    background: rgba( 249, 249, 249, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 9px );
+    backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    color: #000;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+}
+.inp-container {
+    margin: 10px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+input {
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.form-container button{
+    border: 0px;
+    padding: 10px 20px;
+    background-color: #00a130;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+    margin-left: 10px;
+}
+
+/* addAlbum style */
+.addalbum-container{
+    padding-top: 73px;
+    width: 350px;
+    margin: auto;
+}
+.addalbum-form{
+    padding: 10px;
+    margin-top: 90px;
+    background: rgba( 249, 249, 249, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+.form-header-text{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+}
+.addalbum-form button{
+    border: 0px;
+    padding: 10px 20px;
+    background-color: #00a130;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+    margin-left: 10px;
+}
